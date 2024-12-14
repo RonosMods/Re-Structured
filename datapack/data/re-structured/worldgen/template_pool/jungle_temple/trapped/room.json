@@ -1,0 +1,45 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/trapped/room/room_1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "re-structured:mossy_cobblestone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/trapped/room/room_2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "re-structured:mossy_cobblestone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/trapped/room/room_3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "re-structured:mossy_cobblestone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/trapped/room/room_4",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "re-structured:mossy_cobblestone"
+      }
+    }
+  ]
+}

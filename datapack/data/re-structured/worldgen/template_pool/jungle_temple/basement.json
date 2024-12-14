@@ -1,0 +1,35 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/lever_puzzle/lever_puzzle",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "re-structured:mossy_cobblestone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/trapped/trapped",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "re-structured:mossy_cobblestone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/water/water",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "re-structured:mossy_cobblestone"
+      }
+    }
+  ]
+}

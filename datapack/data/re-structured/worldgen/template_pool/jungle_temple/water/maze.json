@@ -1,0 +1,50 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/water/maze/maze_1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": [
+          {
+            "processor_type": "minecraft:block_age",
+            "mossiness": 2
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/water/maze/maze_2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": [
+          {
+            "processor_type": "minecraft:block_age",
+            "mossiness": 2
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "re-structured:jungle_temple/basement/water/maze/maze_3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": [
+          {
+            "processor_type": "minecraft:block_age",
+            "mossiness": 2
+          }
+        ]
+      }
+    }
+  ]
+}
